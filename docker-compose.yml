@@ -1,0 +1,11 @@
+version: '3'
+services:
+  hexo:
+    build: .
+    ports: 
+      - "4000:4000"
+    environment: 
+      - PUBLIC_HEXO_GITHUB_URL=https://github.com/zeusro/docker-hexo.git
+    # entrypoint:
+    #   - sh
+    #   - /build_and_run.sh
