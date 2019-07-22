@@ -1,4 +1,4 @@
-# [docker-hexo](https://hub.docker.com/r/zeusro/hexo)
+# [docker-hexo](https://github.com/zeusro/docker-hexo)
 
 只需一个 GitHub URL ,轻松打包成一个 docker 镜像
 
